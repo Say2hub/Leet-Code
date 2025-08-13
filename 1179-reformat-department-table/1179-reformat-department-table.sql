@@ -13,4 +13,3 @@ select id,
 	sum(case when month = 'dec' then revenue else null end) as Dec_Revenue
 from department
 group by id
-order by id
