@@ -12,6 +12,9 @@ class Solution {
                 if(count>=nums.length/2){
                     num=nums[i];
                 }
+            }
+            else{
+                count=0;
             }       
         }
     return num;
